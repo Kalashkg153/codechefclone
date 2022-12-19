@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 130px;
+    height: 60px;
+}
+
+nav{
+
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    
+}
+
+.section0{
+    position: relative;
+    top: 50px;
+}
+
+.login:hover{
+    background-color: rgb(224, 236, 248);
+}
+
+.signup:hover{
+    background-color: rgb(98, 112, 169);
+    color: white;
+}
+
+.carimg{
+    width: 870px;
+    height: 425px;
+}
+
+.carhr{
+    margin-top: 50%;
+}
+
+.anyhr{
+  
+    width: 15%;
+}
+
+
+
+.pic1{
+    width: 85%;
+}
+.sec1{
+    width: 60%;
+}
+.sec2{
+    width: 100%;
+}
+
+.section1{
+    background-color: aquamarine;
+    position: relative;
+    top: 80px;
+}
+
+.section2{
+    position: relative;
+    top: 80px;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.vid
+{
+    width: 95%;
+}
+
+.starter-btn{
+    background-color: rgb(40, 26, 54);
+    color: rgb(123, 241, 205);
+    width: 125px;
+    height: 50px;
+}
+
+.pic2{
+    background-color: rgb(194, 244, 237);
+    height: 75%;
+}
+
+i:hover{
+    cursor: pointer;;
+}
+
+.proplanbtn{
+    background-color: rgb(98, 34, 14);
+    color: white;
+}
+
+.section3{
+    background-color: rgb(237, 231, 222);
+    position: relative;
+    top: 70px;
+}
+
+.section4{
+    background-color: rgb(226, 224, 219);
+    position: relative;
+    top: 70px;
+}
+
+.section5{
+    background-color: rgb(42, 42, 57);
+    color: white;
+    position: relative;
+    top: 70px;
+}
+
+.section6
+{
+    position: relative;
+    top: 80px;
+}
+
+.learnsection{
+    background-color: rgb(12, 12, 46);
+    color: white;
+}
+
+.tohover:hover{
+    transform: scaleY(1.05);
+    transition: 0.2s;
+    box-shadow: rgb(30, 24, 68);
+    cursor: pointer;
+}
+
+.card{
+    cursor: pointer;
+}
+
+@media screen and (max-width : 380px) {
+
+    .carous{
+        flex-direction: column;
+    }
+
+    .sectiondiv{
+        flex-direction: column;
+    }
+
+    .carimg{
+        width: 380px;
+        height: auto;
+    }
+}
